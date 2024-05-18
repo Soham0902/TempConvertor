@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(temp_con_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1240px;
+    align-items: center;
+}
+.bg{
+    width: 100%;
+    height: 50px;
+    background:transparent;
+    text-align: center;
+}
+p,span{
+    font-size: 80px;
+    font-weight: bolder;
+}
+span{
+    color: white;
+}
+.temp{
+    width: 45%;
+    align-self: center;
+    height: 600px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 400px;
+}
+h3{
+    font-size: 50px;
+    margin: 40px 20px;
+    color: white;
+}
+input{
+    width: 300px;
+    padding: 20px;
+    font-size: 25px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+    font-weight: bold;
+}
